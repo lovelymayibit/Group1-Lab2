@@ -1,0 +1,68 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+#holder{
+    width: 1000px;
+    margin: auto;
+}
+#headerContainer{
+    background-color: #eeefee;
+    padding: .5px;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    border: 1px solid;
+
+}
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    position: relative;
+    border: 1px solid;
+
+}
+.eventType{
+   margin-left: 75px;
+   width: 160px;
+   font-family: "Comic Sans MS", "Comic Sans";
+   color: black;
+}
+.eventTitle{
+    margin-left: 75px;
+    width: 50%;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+.eventDates{
+    margin-left: 70px;
+    margin-right: 10px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+.eventDates2{
+    margin-left: 10px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+.postingDate{
+    margin-left: 67px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+input, .eventType{
+    margin-bottom: 15px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+#buttons{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+}
+#save, #cancel{
+    width: 90px;
+    height: 25px;
+}
