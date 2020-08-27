@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Event</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body onload="defaultDates()">
+<div id="holder">
+    <div id="headerContainer">
+        <h2>Create a New Event</h2>
+    </div>
+    <div id="container">
+        <form onsubmit="saveForm()">
+            <label id="title" for="eventType">Event Type: </label>
+            <select id="eventType" class="eventType" required>
+                <option value="default">Choose One</option>
+                <option value="weddingReception">Wedding Reception</option>
+                <option value="birthdayParty">Birthday Party</option>
+                <option value="convention">Convention</option>
+                <option value="webinar">Webinar</option>
+            </select>
+            <br>
+
+            <label for="eventTitle">Event Title: </label>
+            <input id="eventTitle" class="eventTitle" type="text" placeholder="Enter Event Title">
+            <br>
+
+            <label for="eventDates">Event Dates: </label>
+            <input id="eventDates" class="eventDates" type="date" max="2099-12-31"> to <input id="eventDates2" class="eventDates2" type="date" max="2099-12-31">
+            <br>
+
+            <label for="postingDate">Posting Date: </label>
+            <input id="postingDate" class="postingDate" type="date"  max="2099-12-31">
+            <br>
+
+            <input type="checkbox">
+            <label for="eventPosting"> Is Registration Required?</label><br>
+            <input type="checkbox"><label for="eventPosting"> Is this event associated with any Family Programs?</label><br>
+            <input type="checkbox"><label for="eventPosting"> Upon Registration Completion, Are Users to Receive an Auto Generated Email?</label><br>
+            <input type="checkbox"><label for="eventPosting"> Is There a Point of Contact?</label><br>
+            <input type="checkbox"><label for="eventPosting"> Is There a Hosting Command Point of Contact?</label>
+            <br><br>
+
+            <div id="buttons">
+                <input id="save" type="submit" value="Save">
+                <input id="cancel" type="reset" value="Cancel">
+            </div>
+            <br>
+
+            <p>
+                this was created at 8:29
+            </p>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
